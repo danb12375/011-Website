@@ -1,0 +1,79 @@
+<?php 
+session_start();
+
+  include("connection.php");
+  include("functions.php");
+
+  $user_data = check_login($con);
+
+?>
+<!DOCTYPE HTML>
+
+<head>
+  <div class="navbar">
+  <a href="http://localhost/login/index.php">Homepage</a>
+  <a href="http://localhost/navbar/expansion/index.php">Student and Contact Information</a>
+  <a href="http://localhost/navbar/expansion2/index.php">Staff and Contact Information</a>
+  <a href="http://localhost/test/courseinfo.html">Course Information</a>
+  <a href="http://localhost/test/moduleinfo.html">Module's</a>
+  <a href="http://localhost/test/studentmarks.html">Student Marks</a>
+  
+</div>
+
+<h1>Applied Computer Science </h1>
+<p> Intro to Programming</p>
+<p> Network Routing </p>
+<p> Databases and Design </p>
+<p> Computing and Society </p>
+<p> Web Programming</p>
+<p> Final Project </p>
+
+<h1>Artificial Intelligence</h1>
+<p> Web Programming</p>
+<p> Network Routing </p>
+<p> Databases and Design </p>
+<p> Digital Security </p>
+<p> Intro to Programming</p>
+<p> Final Project </p>
+
+<h1>Computer Networks </h1>
+<p> Digital Security</p>
+<p> Network Routing </p>
+<p> Databases and Design </p>
+<p> Computing and Society </p
+
+
+<h1>Computer Science </h1>
+<p> Intro to Programming</p>
+<p> Network Routing </p>
+<p> Databases and Design </p>
+<p> Final Project </p>
+
+
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 21px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+
+</head>
+</html>

@@ -1,0 +1,210 @@
+<?php 
+session_start();
+
+  include("connection.php");
+  include("functions.php");
+
+  $user_data = check_login($con);
+
+?>
+<!DOCTYPE HTML>
+
+<head>
+
+
+<style>
+body {
+  font-family: Comic Sans MS;
+  margin: 0;
+}
+
+.header {
+  background: black;
+  color: white;
+  padding: 45px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 21px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.logout {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.logout a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 13px 21px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.logout a:hover {
+  background-color: white;
+  color: black;
+}
+
+.logout a.active {
+  background-color: white;
+  color: Black;
+}
+
+.logout-right {
+  float: right;
+}
+
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+
+body {
+  background-image: url('http://localhost/img/uniimage.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+h1 {
+font-family: comicsans;
+}
+</style>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+
+body {
+  background-image: url('http://localhost/img/uniimage.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+h1 {
+font-family: comicsans;
+}
+</style>
+</style>
+
+<body>
+
+<div class="header">
+  <h1>Module Information</h1>
+  <p>Use links below to see more.</p>
+</div>
+
+<div class="navbar">
+  <a href="http://localhost/login/index.php">Homepage</a>
+  <a href="http://localhost/navbar/expansion/index.php">Student and Contact Information</a>
+  <a href="http://localhost/navbar/expansion2/index.php">Staff and Contact Information</a>
+  <a href="http://localhost/navbar/expansion3/index.php">Course Information</a>
+  <a href="http://localhost/test/moduleinfo.html">Module's</a>
+  <a href="http://localhost/navbar/studentmarks/index.php">Student Marks</a>
+  
+</div>
+
+<body>
+  <div class="logout">
+  <a href="logout.php"><style=text-align: right;>Logout</a>
+
+  </div>
+  
+
+
+
+<head>
+
+</head>
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<div class="row">
+  <div class="column">
+    <a href="http://localhost/test/cm.html">
+    <img src="http://localhost/img/Computing.jpg" alt="Snow" style="width:100%">
+    <p>Computing </p>
+  </div>
+  <div class="column">
+    <img src="http://localhost/img/Photographyandmedia.jpg" alt="Forest" style="width:100%">
+    <a href="http://localhost/test/mp.html">
+    <p>Photography and Media</p>
+  </div>
+  <div class="column">
+    <img src="http://localhost/img/Policing.jpg" alt="Forest" style="width:100%">
+    <a href="http://localhost/test/mp.html">
+    <p>Policing</p>
+  </div>
+</div>
+
+  <div class="row">
+  
+  <div class="column">
+    <a href="http://localhost/test/mp.html">
+    <img src="http://localhost/img/zoo1.jpg" alt="zoo" style="width:100%">
+    <p>Animal Wellbeing </p>
+  </div>
+
+  <div class="row">
+  
+  <div class="column">
+    <img src="http://localhost/img/fashion.jpg" alt="Police" style="width:100%">
+    <a href="http://localhost/test/mp.html">
+    <p>Fashion</p>
+  </div>
+ 
+  <div class="row">
+  
+ 
+  <div class="column">
+    <img src="http://localhost/img/art1.jpg" alt="art" style="width:100%">
+    <a href="http://localhost/test/mp.html">
+    <p>Art</p>
+  </div>
+
+</body>
+ 
+</html>
